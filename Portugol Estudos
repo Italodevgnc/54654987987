@@ -1,1 +1,39 @@
+programa
+{
+	funcao inicio ()
+	{
+		
 
+//definição
+	
+	inteiro  curso1, curso2, curso3, curso4, total
+
+//entrada
+
+escreva("Digite a quantidade de alunos do 1º curso:")
+leia(curso1)
+
+escreva("Digite a quantidade de alunos do 2º curso:")
+leia(curso2)
+
+escreva("Digite a quantidade de alunos do 3º curso:")
+leia(curso3)
+
+escreva("Digite a quantidade de alunos do 4º curso:")
+leia(curso4)
+
+//processamento
+
+	total = curso1 + curso2 + curso3 + curso4
+
+
+
+
+//saida
+
+escreva("O total de alunos dos 4 cursos é: " + total )
+		
+		
+		
+	}
+}
